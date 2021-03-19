@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "rdha-kube-jenkins42706-tfstate"
     prefix = "env/prod"
   }
 }
